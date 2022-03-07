@@ -15,3 +15,4 @@ class AoC2021Tests(unittest.TestCase):
         self.assertEqual(1524750, day_02.Solution().parse_and_solve_p1("../input/day_02.in"))
         self.assertEqual(900, day_02.Solution().parse_and_solve_p2("../input/day_02_test.in"))
         self.assertEqual(1592426537, day_02.Solution().parse_and_solve_p2("../input/day_02.in"))
+

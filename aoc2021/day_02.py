@@ -5,7 +5,7 @@ from functools import reduce
 class Solution:
 
     def __init__(self):
-        self.direction = {'up': [0, -1], 'down': [0, 1], 'forward': [1, 0]}
+        self.direction = {'up': (0, -1), 'down': (0, 1), 'forward': (1, 0)}
 
     def parse_and_solve_p1(self, filename):
         return self.solve_p1(self.parse(filename))
