@@ -1,5 +1,5 @@
 import unittest
-from aoc2021 import day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09
+from aoc2021 import day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10
 
 
 class AoC2021Tests(unittest.TestCase):
@@ -58,3 +58,9 @@ class AoC2021Tests(unittest.TestCase):
         self.assertEqual(425, day_09.Solution().parse_and_solve_p1("../input/day_09.in"))
         self.assertEqual(1134, day_09.Solution().parse_and_solve_p2("../input/day_09_test.in"))
         self.assertEqual(1135260, day_09.Solution().parse_and_solve_p2("../input/day_09.in"))
+
+    def test_day_10(self):
+        self.assertEqual(26397, day_10.Solution().parse_and_solve_p1("../input/day_10_test.in"))
+        self.assertEqual(240123, day_10.Solution().parse_and_solve_p1("../input/day_10.in"))
+        self.assertEqual(288957, day_10.Solution().parse_and_solve_p2("../input/day_10_test.in"))
+        self.assertEqual(3260812321, day_10.Solution().parse_and_solve_p2("../input/day_10.in"))
