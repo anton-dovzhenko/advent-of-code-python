@@ -3,9 +3,6 @@ import numpy as np
 
 class Solution:
 
-    def __init__(self):
-        pass
-
     def parse_and_solve_p1(self, filename):
         m = self.parse(filename)
         thr = m.shape[1] / 2

@@ -13,7 +13,6 @@ class Solution:
                     return np.sum(b) * n
 
     def parse_and_solve_p2(self, filename):
-        n, boards = self.parse(filename)
         nums, boards = self.parse(filename)
         score = None
         for n in nums:
