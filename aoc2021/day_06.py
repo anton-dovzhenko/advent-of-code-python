@@ -1,6 +1,3 @@
-import numpy as np
-
-
 class Solution:
 
     def solve(self, filename, days):
