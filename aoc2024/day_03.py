@@ -1,7 +1,4 @@
-import collections
 import re
-
-import numpy as np
 
 
 class Solution:
