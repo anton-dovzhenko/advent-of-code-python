@@ -34,7 +34,6 @@ class Solution:
                     puzzle_copy = copy.deepcopy(puzzle)
                     puzzle_copy[i][j] = '#'
                     loops += self.has_loop(guard, puzzle_copy)
-                print(i, j)
         return loops
 
     def has_loop(self, guard, puzzle):
