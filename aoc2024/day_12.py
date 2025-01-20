@@ -118,6 +118,6 @@ solution = Solution()
 print("Parse test:", solution.parse('input/day_12_test.input'))
 print("Solve 1 test:", solution.parse_and_solve_p1('input/day_12_test.input'))
 print("Solve 1:", solution.parse_and_solve_p1('input/day_12.input'))
-print("Solve 1 test:", solution.parse_and_solve_p2('input/day_12_test.input'))
-print("Solve 1:", solution.parse_and_solve_p2('input/day_12.input'))
+print("Solve 2 test:", solution.parse_and_solve_p2('input/day_12_test.input'))
+print("Solve 2:", solution.parse_and_solve_p2('input/day_12.input'))
 
