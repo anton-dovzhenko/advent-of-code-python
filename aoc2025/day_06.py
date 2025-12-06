@@ -35,16 +35,7 @@ class Solution:
         return self.calculate(numbers, operations.split())
 
     def calculate(self, numbers, operations):
-        result = 0
-        for i in range(len(numbers)):
-            row = numbers[i]
-            if operations[i] == '+':
-                result += np.sum(row)
-            elif operations[i] == '*':
-                result += np.prod(row)
-            else:
-                raise Exception(f'Unknown operation ' + operations[i])
-        return result
+        return np.sum([np.sum(n) if o == '+' else np.prod(n) for n, o in zip(numbers, operations)])
 
 
 print("Solve 1 test:", Solution().parse_and_solve_p1('input/day_06_test.input'))
