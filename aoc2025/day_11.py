@@ -21,7 +21,6 @@ class Solution:
                 path_count += self._next_step(conns, next_node)
             return path_count
 
-
     def parse_and_solve_p2(self, filename):
         conns = self.parse(filename)
         cache = {}
