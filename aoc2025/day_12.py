@@ -1,8 +1,3 @@
-import sys
-
-import cvxpy as cp
-import itertools
-
 import numpy as np
 
 

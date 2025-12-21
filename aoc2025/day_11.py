@@ -1,11 +1,3 @@
-import sys
-
-import cvxpy as cp
-import itertools
-
-import numpy as np
-
-
 class Solution:
 
     def parse_and_solve_p1(self, filename):
