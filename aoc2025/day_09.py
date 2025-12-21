@@ -32,13 +32,6 @@ class Solution:
                     max_area = max(max_area, length * height)
         return max_area
 
-    @staticmethod
-    def _digits_to_integer(digits):
-        i = 0
-        for d in digits:
-            i = i * 10 + d
-        return i
-
     def parse(self, filename):
         data = []
         with open(filename) as f:
